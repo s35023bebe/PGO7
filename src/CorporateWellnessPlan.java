@@ -35,7 +35,7 @@ public class CorporateWellnessPlan extends MembershipPlan implements RemoteAcces
     }
 
     @Override
-    public boolean canBeFrozen() {
+    public boolean canFreeze() {
         return getMonths() >= 6 && workshopsPerMonth == 0;
     }
 

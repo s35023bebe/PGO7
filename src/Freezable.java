@@ -1,3 +1,3 @@
 public interface Freezable {
-    boolean canBeFrozen();
+    boolean canFreeze();
 }

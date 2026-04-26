@@ -26,7 +26,7 @@ public class GymMembershipPlan extends MembershipPlan implements Freezable {
     }
 
     @Override
-    public boolean canBeFrozen() {
+    public boolean canFreeze() {
         return getMonths() >= 3;
     }
 
